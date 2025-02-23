@@ -17,6 +17,7 @@ grid-template-rows: 75px auto auto auto 50px;
     background-color: green;
     justify-items: center;
     align-items: center;
+    font-size: 40px;
     }
 .header {
     grid-area: b;
@@ -24,13 +25,29 @@ grid-template-rows: 75px auto auto auto 50px;
     justify-items: center;
     align-items: center;
     background-color: green;
+    font-size: 40px;
 }
 .nav {
     grid-area: c;
     display: grid;
+/*    margin-top:2px;*/
+    padding-top: 2px;
     justify-items: center;
     align-items: center;
     background-color: green;
+
+}
+
+.nav-style{
+    ul {
+        list-style-type: none;
+        margin-top: 0px;
+    }
+    a {
+        color: orangered;
+        text-decoration: none;
+        font-size: 20px; 
+    }
 }
 .content {
     grid-area: e;
@@ -45,6 +62,9 @@ grid-template-rows: 75px auto auto auto 50px;
 }
 .footer {
     grid-area: g;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     background-color: darkblue;
     color: white;
 }
