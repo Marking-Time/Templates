@@ -1,7 +1,9 @@
 .wrapper {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+/*    grid-template-rows: repeat(5,1fr);*/
+/*    grid-template-rows: repeat(5,1fr);*/
+grid-template-rows: 75px auto auto auto 50px;
     grid-template-areas: 
         "a b b b c"
         "d e e e f"
@@ -11,14 +13,23 @@
 }
 .logo {
     grid-area: a;
+    display: grid;
     background-color: green;
-}
+    justify-items: center;
+    align-items: center;
+    }
 .header {
     grid-area: b;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     background-color: green;
 }
 .nav {
     grid-area: c;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     background-color: green;
 }
 .content {
@@ -34,9 +45,11 @@
 }
 .footer {
     grid-area: g;
+    background-color: darkblue;
+    color: white;
 }
 
-@media (max-width: 500px) {
+@media screen (max-width: 500px) {
     .wrapper {
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
