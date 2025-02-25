@@ -82,13 +82,13 @@ grid-template-rows: 75px auto auto auto 50px;
     grid-area: d;
     display: grid;
     background-color: #e3fad3;
-    color: #ffffff;
+    color: #black;
 }
 .right{
     grid-area: f;
     display: grid;
     background-color: #e3fad3;
-    color: #ffffff;
+    color: #black;
 }
 
 @media screen (max-width: 500px) {
