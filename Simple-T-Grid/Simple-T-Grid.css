@@ -1,31 +1,35 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(7,1fr);
 /*    grid-template-rows: repeat(5,1fr);*/
 /*    grid-template-rows: repeat(5,1fr);*/
 grid-template-rows: 75px auto auto auto 50px;
     grid-template-areas: 
-        "a b b b c"
-        "d e e e f"
-        "d e e e f"
-        "d e e e f"
-        "d g g g f";
+        "a b b b b b c"
+        "d e e e e e f"
+        "d e e e e e f"
+        "d e e e e e f"
+        "d g g g g g f";
 }
 .logo {
     grid-area: a;
     display: grid;
-    background-color: green;
+/*    background-color: green;*/
     justify-items: center;
     align-items: center;
     font-size: 40px;
+    background-color: #3d836a;
+    color: #ffffff;
     }
 .header {
     grid-area: b;
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: green;
+/*    background-color: green;*/
     font-size: 40px;
+    background-color: #3d836a;
+    color: #ffffff;
 }
 .nav {
     grid-area: c;
@@ -34,7 +38,9 @@ grid-template-rows: 75px auto auto auto 50px;
     padding-top: 2px;
     justify-items: center;
     align-items: center;
-    background-color: green;
+/*    background-color: green;*/
+    background-color: #3d836a;
+    color: #ffffff;
 
 }
 
@@ -44,16 +50,18 @@ grid-template-rows: 75px auto auto auto 50px;
         margin-top: 0px;
     }
     a {
-        color: orangered;
+        color: #ffffff;
         text-decoration: none;
         font-size: 20px; 
     }
 }
 .content {
     grid-area: e;
-    background-color: #91ff00;
+/*    background-color: #91ff00;*/
     font-size: large;
     padding:2em;
+    background-color: #C7F2A7;
+    color: black;
 }
 .content img {
     width: 300px;
@@ -65,8 +73,10 @@ grid-template-rows: 75px auto auto auto 50px;
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: darkblue;
+/*    background-color: darkblue;*/
     color: white;
+    background-color: #3d836a;
+    color: #ffffff;
 }
 
 @media screen (max-width: 500px) {
