@@ -11,6 +11,12 @@ grid-template-rows: 75px auto auto auto 50px;
         "d e e e e e f"
         "d g g g g g f";
 }
+
+@font-face {
+    font-family: arial;
+    src: url(arial.ttf);
+}
+
 .logo {
     grid-area: a;
     display: grid;
@@ -62,6 +68,7 @@ grid-template-rows: 75px auto auto auto 50px;
     padding:2em;
     background-color: #C7F2A7;
     color: black;
+    font-family: arial;
 }
 .content img {
     width: 300px;
