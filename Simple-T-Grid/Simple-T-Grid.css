@@ -78,6 +78,18 @@ grid-template-rows: 75px auto auto auto 50px;
     background-color: #3d836a;
     color: #ffffff;
 }
+.left{
+    grid-area: d;
+    display: grid;
+    background-color: #e3fad3;
+    color: #ffffff;
+}
+.right{
+    grid-area: f;
+    display: grid;
+    background-color: #e3fad3;
+    color: #ffffff;
+}
 
 @media screen (max-width: 500px) {
     .wrapper {
