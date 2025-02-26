@@ -12,10 +12,12 @@ grid-template-rows: 75px auto auto auto 50px;
         "d g g g g g f";
 }
 
+/*Thiss is the method for adding a font
+it isn't used in this page
 @font-face {
     font-family: arial;
     src: url(arial.ttf);
-}
+}*/
 
 .logo {
     grid-area: a;
@@ -98,9 +100,11 @@ grid-template-rows: 75px auto auto auto 50px;
     color: #black;
 }
 
-@media screen (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .wrapper {
-      grid-template-columns: 1fr 1fr;
+/*      grid-template-columns: 1fr 1fr;*/
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);  
       grid-template-areas:
         "a a"
         "b b"
@@ -108,9 +112,21 @@ grid-template-rows: 75px auto auto auto 50px;
         "e e"
         "g g";
     }
-    nav ul {
-      display: flex;
-      justify-content: space-between;
+    .nav{
+        grid-area: c;
+/*        display: inline-grid;  */
+/*        display: inline;*/
+        justify-content:center;
+        display: inline-grid;
+    }
+    .nav ul li {
+/*        display:grid-inline;*/
+/*      display: flex;*/
+      justify-content: center;
+      display: inline-grid;
+/*      display: inline-grid;*/
+/*        display: inline-grid;*/
+/*        align-items: center;*/
     }
   }
   
