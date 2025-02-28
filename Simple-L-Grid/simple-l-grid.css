@@ -62,7 +62,7 @@
     grid-area: d;
     background-color: #772987;
     color: #ffffff;
-/*    margin: 20px;*/
+    font-size: 20px;
 }
 .footer{
     display: grid;
@@ -73,6 +73,31 @@
     align-items: center;
 
 }
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+/*      grid-template-columns: 1fr 1fr;*/
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);  
+      grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "d d"
+        "e e";
+/*        "g g";*/
+    }
+    .nav{
+/*        grid-area: c;*/
+        justify-content:center;
+        display: inline-grid;
+    }
+    .nav ul li {
+      justify-content: center;
+      display: inline-grid;
+    }
+  }
+
 
 
 
