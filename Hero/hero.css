@@ -1,6 +1,4 @@
 body{
-/*	display: flex
-;*/
 	background-image: url("tan-horse-resized.png");
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -10,21 +8,23 @@ body{
     font-family: DancingScript;
     src: url(DancingScript-regular.ttf);
 }
+@font-face{
+    font-family: DancingScript;
+    src: url(DancingScript-bold.ttf);
+    font-weight: bold;
+}
 .intro{
 	font-family: DancingScript;
 	font-size: 30px;
 }
 .just{
-/*	margin-top: 10px;*/
 	font-family: DancingScript;
+	font-weight:bold;
 	font-size: 120px;
 }
 a{
-	font-family: dancingscript;
+	font-family: DancingScript;
 	font-size: 50px;
 	text-decoration: none;
 	color: black;
 }
-/*button:hover{
-background: f1f1f1;
-}*/
