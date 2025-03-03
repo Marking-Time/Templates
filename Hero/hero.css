@@ -1,6 +1,30 @@
 body{
-	background-image: url("gecko.jpg");
+/*	display: flex
+;*/
+	background-image: url("tan-horse-resized.png");
 	background-size:cover;
-	background-position: center;
-/*	size: 100%;*/
+	background-repeat:no-repeat;
+	text-align:center;
 }
+@font-face{
+    font-family: DancingScript;
+    src: url(DancingScript-regular.ttf);
+}
+.intro{
+	font-family: DancingScript;
+	font-size: 30px;
+}
+.just{
+/*	margin-top: 10px;*/
+	font-family: DancingScript;
+	font-size: 120px;
+}
+a{
+	font-family: dancingscript;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+}
+/*button:hover{
+background: f1f1f1;
+}*/
