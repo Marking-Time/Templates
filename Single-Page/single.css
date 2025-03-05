@@ -1,0 +1,28 @@
+@font-face{
+	font-family: philing;
+	src: url("philing.ttf");
+}
+body{
+	background-color: #e3fad3;
+}
+.heading{
+	font-family: philing;
+	font-size: 60px;
+	text-align: center;
+	color: #772987;
+}
+.layout{
+	font: system;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap:20px;
+	img{
+		height: 300px;
+		width: 300px;
+	}
+}
+.sub-heading{
+	text-align: center;
+	font: system;
+}
