@@ -32,13 +32,13 @@ a{
 	text-decoration: none;
 	color: black;
 	opacity: 0; 					/* for fade in */
-	animation: fadeIn 3s forwards; 	/* for fade in */
-	animation-delay: 1s;			/* for fade in */
+	animation: fadeIn 2.5s forwards; 	/* for fade in */
+	animation-delay: 1.25s;			/* for fade in */
 }
 @keyframes fadeIn {		/* for fade in */
     to {				/* for fade in */
         opacity: 1;		/* for fade in */
     }					/* for fade in */
-}						/* for fade in */
+}						/* for fade in *3
 
 
