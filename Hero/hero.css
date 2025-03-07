@@ -22,9 +22,23 @@ body{
 	font-weight:bold;
 	font-size: 120px;
 }
+/*@starting-style {
+	a{
+		opacity:0}
+}*/
 a{
 	font-family: DancingScript;
 	font-size: 50px;
 	text-decoration: none;
 	color: black;
+	opacity: 0; 					/* for fade in */
+	animation: fadeIn 3s forwards; 	/* for fade in */
+	animation-delay: 1s;			/* for fade in */
 }
+@keyframes fadeIn {		/* for fade in */
+    to {				/* for fade in */
+        opacity: 1;		/* for fade in */
+    }					/* for fade in */
+}						/* for fade in */
+
+
