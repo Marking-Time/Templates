@@ -1,0 +1,53 @@
+.logo {
+	background-color: #fff;
+	color: black;
+}
+
+.header {
+	background-color: #fff;
+	color: black;
+}
+
+.nav {
+	background-color: #fff;
+	color: black;
+	ul {
+		list-style: none;
+	}
+	a {
+		/*text-decoration: none;*/
+		background-color: #fff;
+		color: black;
+	}
+	a:hover{
+		background-color: #fff;
+	}
+}
+
+.content{
+	background-color: ;
+	color: ;
+}
+
+.inner-grid {
+	background: ;
+	/*background-color: ;*/
+	color: ;
+}
+
+.card {
+	background-color: ;
+	color: ;
+	a {
+		color: ;
+	}
+	a:hover {
+		color: ;
+	}
+}
+
+.footer {
+    background-color: ;
+    color: ;
+}
+
