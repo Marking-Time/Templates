@@ -1,5 +1,8 @@
 html {
-	font: 1.2em "Fira Sans", sans-serif;
+	/*font: 1.2em "Fira Sans", sans-serif;*/
+	/*font: cursive, sans-serif;*/
+	font-family: cursive;
+
 }
 .logo {
 	background-color: #fff;
